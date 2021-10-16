@@ -2,7 +2,7 @@
  * 商品分类服务
  */
 angular.module('category.service', [])
-  .factory('categoryFty', function ($http, $q) {
+  .factory('categoryFty', function ($q) {
     return {
       getCategoryData: function() {
         var categoryData = [
